@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 const ExpenseList = ({ expenses, onEditExpense, onDeleteExpense, exchangeRates }) => {
     const handleDelete = (index) => {

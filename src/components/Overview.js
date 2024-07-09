@@ -26,7 +26,7 @@ const Overview = ({ expenses }) => {
 
     return (
         <div className="overview">
-            <h2>Vis�o Geral</h2>
+            <h2>Visão Geral</h2>
             {Object.entries(totals).map(([currency, total]) => (
                 <p key={currency}>Total em {currency}: {total.toFixed(2)}</p>
             ))}

@@ -8,7 +8,7 @@ export const convertCurrency = async (amount, fromCurrency, toCurrency) => {
         const rate = response.data.rates[toCurrency];
         return amount * rate;
     } catch (error) {
-        console.error('Erro na convers„o de moeda:', error);
+        console.error('Erro na convers√£o de moeda:', error);
         return 0;
     }
 };

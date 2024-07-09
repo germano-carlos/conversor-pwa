@@ -34,7 +34,7 @@ const ExpenseForm = ({ onAddExpense, editingExpense, onEditExpense }) => {
     return (
         <form onSubmit={handleSubmit}>
             <div>
-                <label>Descrição:</label>
+                <label>Descri  o:</label>
                 <input
                     type="text"
                     value={description}
@@ -66,7 +66,7 @@ const ExpenseForm = ({ onAddExpense, editingExpense, onEditExpense }) => {
                     <option value="USD">USD</option>
                     <option value="EUR">EUR</option>
                     <option value="BRL">BRL</option>
-                    {/* Adicione mais moedas conforme necessário */}
+                    {/* Adicione mais moedas conforme necess rio */}
                 </select>
             </div>
             <div>
@@ -75,10 +75,10 @@ const ExpenseForm = ({ onAddExpense, editingExpense, onEditExpense }) => {
                     <option value="USD">USD</option>
                     <option value="EUR">EUR</option>
                     <option value="BRL">BRL</option>
-                    {/* Adicione mais moedas conforme necessário */}
+                    {/* Adicione mais moedas conforme necess rio */}
                 </select>
             </div>
-            <button type="submit">{editingExpense ? 'Salvar Alterações' : 'Adicionar Despesa'}</button>
+            <button type="submit">{editingExpense ? 'Salvar Altera  es' : 'Adicionar Despesa'}</button>
         </form>
     );
 };
